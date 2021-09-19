@@ -9,6 +9,8 @@ import HandlingEvents from "./lession-2/handling-event/HandlingEvents";
 import ConditionalRendering from "./lession-2/conditional-rendering/ConditionalRendering";
 import State from "./lession-2/state/State";
 import StylingComponent from "./lession-2/styling-component/StylingComponent";
+import ChooseCar from "./lession-2/choose-car/ChooseCar";
+import ListsKeys from "./lession-2/list-keys/ListsKeys";
 
 // import ClassComponent from './DemoComponent/ClassComponent'
 // import FuntionComponent from "./DemoComponent/FuntionComponent";
@@ -30,7 +32,9 @@ function App() {
       {/* <ConditionalRendering /> */}
       {/* State */}
       {/* <State /> */}
-      <StylingComponent />
+      {/* <StylingComponent /> */}
+      {/* <ChooseCar /> */}
+      <ListsKeys />
     </div>
   );
 }
