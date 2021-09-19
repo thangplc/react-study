@@ -6,6 +6,9 @@ import { Home } from "./lession-1/BT2";
 import HeroicFeatures from "./lession-1/BT3";
 import DataBinding from "./lession-1/DataBinding/DataBinding";
 import HandlingEvents from "./lession-2/handling-event/HandlingEvents";
+import ConditionalRendering from "./lession-2/conditional-rendering/ConditionalRendering";
+import State from "./lession-2/state/State";
+import StylingComponent from "./lession-2/styling-component/StylingComponent";
 
 // import ClassComponent from './DemoComponent/ClassComponent'
 // import FuntionComponent from "./DemoComponent/FuntionComponent";
@@ -23,7 +26,11 @@ function App() {
       {/* <HeroicFeatures /> */}
       {/* Data binding */}
       {/* <DataBinding /> */}
-      <HandlingEvents />
+      {/* <HandlingEvents /> */}
+      {/* <ConditionalRendering /> */}
+      {/* State */}
+      {/* <State /> */}
+      <StylingComponent />
     </div>
   );
 }
