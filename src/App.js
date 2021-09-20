@@ -12,8 +12,10 @@ import StylingComponent from "./lession-2/styling-component/StylingComponent";
 import ChooseCar from "./lession-2/choose-car/ChooseCar";
 import ListsKeys from "./lession-2/list-keys/ListsKeys";
 
-// import ClassComponent from './DemoComponent/ClassComponent'
-// import FuntionComponent from "./DemoComponent/FuntionComponent";
+import ClassComponent from "./DemoComponent/ClassComponent";
+import FuntionComponent from "./DemoComponent/FuntionComponent";
+import ParentComponent from "./lession-4/Props/ParentComponent";
+import PropsType from "./lession-4/PropsType/PropsType";
 
 function App() {
   return (
@@ -22,19 +24,35 @@ function App() {
       {/* <ClassComponent></ClassComponent>
       <FunctionComponent></FunctionComponent>
        */}
+
       {/* <BT1 /> */}
+
       {/* Bai tap 2 */}
       {/* <Home /> */}
+
       {/* <HeroicFeatures /> */}
+
       {/* Data binding */}
       {/* <DataBinding /> */}
+
       {/* <HandlingEvents /> */}
+
       {/* <ConditionalRendering /> */}
+
       {/* State */}
       {/* <State /> */}
+
       {/* <StylingComponent /> */}
+
       {/* <ChooseCar /> */}
-      <ListsKeys />
+
+      {/* <ListsKeys /> */}
+
+      {/* props */}
+      {/* <ParentComponent /> */}
+
+      {/* props type */}
+      <PropsType />
     </div>
   );
 }
