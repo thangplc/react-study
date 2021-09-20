@@ -16,6 +16,8 @@ import ClassComponent from "./DemoComponent/ClassComponent";
 import FuntionComponent from "./DemoComponent/FuntionComponent";
 import ParentComponent from "./lession-4/Props/ParentComponent";
 import PropsType from "./lession-4/PropsType/PropsType";
+import Button from "./lession-4/ChildrenProps/Button";
+import ChildrenProps from "./lession-4/ChildrenProps/ChildrenProps";
 
 function App() {
   return (
@@ -52,7 +54,10 @@ function App() {
       {/* <ParentComponent /> */}
 
       {/* props type */}
-      <PropsType />
+      {/* <PropsType />*/}
+
+      {/* Children Props */}
+      <ChildrenProps />
     </div>
   );
 }
